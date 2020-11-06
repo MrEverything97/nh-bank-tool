@@ -1,0 +1,108 @@
+package nhbank.core.model;
+
+import lombok.Data;
+
+import java.math.BigDecimal;
+import java.util.Date;
+
+@Data
+public class AFEX_IPH_AMD_DTO {
+    private String REF_NO;
+    private String AMD_SEQ;
+    private String AMD_NO;
+    private Date TRAN_IL;
+    private Date AMD_IL;
+    private String STS;
+    private String ADV_BIC;
+    private String ADV_NM;
+    private Date OPEN_IL;
+    private String THEIR_REF;
+    private String BENE_NM;
+    private String BENE_ADDR1;
+    private String BENE_ADDR2;
+    private String BENE_ADDR3;
+    private String BEFO_CCY;
+    private BigDecimal BEFO_AMT;
+    private BigDecimal INC_AMT;
+    private BigDecimal DEC_AMT;
+    private String AMD_CCY;
+    private BigDecimal AMD_AMT;
+    private Date EXP_IL;
+    private Date SHIP_IL;
+    private String REIM_BIC;
+    private String REIM_NM;
+    private String CHARGE_GB;
+    private String PART_SHIP;
+    private String TRAN_SHIP;
+    private String RA_GB;
+    private String ORGN_NM1;
+    private String ORGN_NM2;
+    private String PRICE_NM;
+    private String FROM_PORT;
+    private String TO_PORT;
+    private String AMT_MORE;
+    private String AMT_LESS;
+    private String OPER_NO;
+    private String MT707_NM;
+    private String MT747_NM;
+    private String APPL_CD;
+    private String EDI_GB;
+    private String EDI_CUST;
+    private String EDI_SEND;
+    private Date EDI_SND_IL;
+    private String EDI_JUM_NO;
+    private BigDecimal EDI_SEQ_NO;
+    private String EDI_SFNM;
+    private String EDI_RCV;
+    private Date EDI_RCV_IL;
+    private String EDI_RFNM;
+    private String THR_NM;
+    private String SEND_JUMGB;
+    private String BANK_GB;
+    private String NCU_BEFO_CCY;
+    private BigDecimal NCU_BEFO_AMT;
+    private BigDecimal NCU_INC_AMT;
+    private BigDecimal NCU_DEC_AMT;
+    private String NCU_AMD_CCY;
+    private BigDecimal NCU_AMD_AMT;
+    private BigDecimal HIS_NO;
+    private String CBS_GB;
+    private String MNG_INFO;
+    private String PRES_PRD;
+    private String LOAD_PORT;
+    private String DISC_PORT;
+    private String REG_EMP_NO;
+    private Date REG_DT;
+    private String REG_TM;
+    private String UPD_EMP_NO;
+    private Date UPD_DT;
+    private String UPD_TM;
+    private String APPL_NM;
+    private String APPL_ADDR1;
+    private String APPL_ADDR2;
+    private String APPL_ADDR3;
+    private String PURPOSE_CD;
+    private String CANCEL_CD;
+    private String TRANS_GB;
+    private String APPL_RULE;
+    private String APPL_RULE2;
+    private String NEGO_GB;
+    private String USAN_TERM;
+    private String TERM_GB;
+    private String TERM_TYPE;
+    private String DRAFT_RATE;
+    private String DRAWEE_BIC;
+    private String DRAWEE_NM;
+    private String CNFM_BIC;
+    private String CNFM_NM;
+    private String THR_NM2;
+    private String THR_NM3;
+    private String THR_NM4;
+    private String NEGO_BIC;
+    private String TTREIM_GB;
+    private String CNFM_GB;
+    private String THR_BIC;
+
+    public AFEX_IPH_AMD_DTO() {
+    }
+} 
